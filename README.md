@@ -1,5 +1,5 @@
 # ETSIIT-AA
-Prácticas de AA (Aprendizaje Automático) - GII ETSIIT UGR Curso 20-21
+Prácticas de AA (Aprendizaje Automático) - GII ETSIIT UGR Curso 19-20
 
 ## Calificaciones
 
