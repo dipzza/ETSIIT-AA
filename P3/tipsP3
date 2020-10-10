@@ -1,0 +1,41 @@
+1) Descripción del problema. Para quitar carácteristicas que no aporten información buscamos correlación entre estas o aquellas que tengan una varianza muy baja, intentar ver alguna clase de funciones. Ver si hay desbalanceo de clases
+
+Bordes de los números tal vez irrelevantes.
+
+2) En principio carácteristicas lineales, por tener un modelo funcional simple y rápido. Cambiaremos tras ver si tenemos un problema de alto 'bias' o alta varianza.
+
+3) ¿Conservar proporción de clases?
+Validación cruzada. Training, conjunto training y conjunto de validación.
+Observación: El error es independiente de las muestras usadas para entranamiento. K = 5
+Mitigas el overfitting al entrenar con diferentes y evaluar con diferentes.
+Problema, tiene que ejecutar varias veces.
+
+4) Preprocesado de los datos.
+
+Eliminar variables no predictivas. Mirar si tiene ruido o no.
+
+Inputar datos perdidos o eliminar características (quitar pierde información, inputar mal aprende mal)
+
+Codificación, depende del tipo de problema, pasar por ejemplo A, B, C de notas a nota numérica. Binarización / dummy variables para representar una clase en vez de (tipo 0, tipo 1, tipo 2).
+
+Normalización, lo principal, depende del modelo pasar valores pj entre 0 y 1, se suele calcular el máximo y el mínimo de los datos. Valor que superen al máximo se convierten en el máximo, same for min. Otras opción es la de media 0 varianza 1.
+
+Proyección, convertir pares de valores en un valor.
+
+5) Buscar en google Evaluation Metrics. Regresión suma de cuadrados, clasificación porcentaje de error, Presicion/Recall. Depende del tipo de problema/modelo utilizado.
+
+6) Explicar pros y contras de la tecnica usada PARA minimizar la función (SGD, GD, ...)
+
+7) L1 y L2, penalizar modelos complejos, hasta cuanto renta según el problema. Puede empeorar por quitar información de los datos y por eso no mejora o porque no se adecue bien al problema.
+
+8) Modelos usados (función de coste, reg.log., reg.lin., perceptrón, ...)
+
+9) Tabla sobre el conjunto de validación con varios hiperparámetros y varios modelos, eligiendo el mejor. El conjunto de test no se toca hasta el final de la práctica.  Librerías de python para estimar hiperparámetros que te saca un dataframe puta madre, haciéndolo con validación cruzada o al menos validación.
+
+10) 
+
+11) Cotas
+tema 3 Fundamental of learning
+diapositiva 22
+
+Un script por ejercicio
